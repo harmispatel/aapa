@@ -1,15 +1,18 @@
 name: aapa
 description: A new Flutter project.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/harmispatel/aapa.git
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
+  sdk: ">=2.7.1 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
+
+  simple_animations: ^1.1.3
+  page_transition: ^1.1.4
 
 dev_dependencies:
   flutter_test:
